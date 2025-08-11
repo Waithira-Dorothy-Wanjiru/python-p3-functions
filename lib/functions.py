@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 
+# 1. Method with no arguments
 def greet_programmer():
-    pass
+    print("Hello, programmer!")
 
+# 2. Method with one argument
 def greet(name):
-    pass
+    print(f"Hello, {name}!")
 
+# 3. Method with default argument
 def greet_with_default(name="programmer"):
-    pass
+    print(f"Hello, {name}!")
 
+# 4. Method to add two numbers
 def add(num1, num2):
-    pass
+    return num1 + num2
 
+# 5. Method to halve a number
 def halve(number):
-    pass
+    return number / 2
